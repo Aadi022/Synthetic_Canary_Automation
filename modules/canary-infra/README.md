@@ -4,6 +4,6 @@ This module creates:
 * the security group used by the canary to call the api to test  
 * the IAM role for the canary execution.  
 
-It takes two parameters:  
-* vpc_id and subnet_ids: where the canary needs to execute.  
+It takes three parameters:  
+* vpc_id, route table id and subnet_ids: where the canary needs to execute.  
   
