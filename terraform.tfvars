@@ -1,0 +1,10 @@
+name   = "my-canary"
+runtime_version = "syn-nodejs-puppeteer-7.0"
+take_screenshot = true
+api_hostname = "https://github.com"
+api_path = "/Aadi022"
+vpc_id = "vpc-0a9f079ba4d91671c"
+subnet_ids = ["subnet-0453eb54396f239f4"]
+route_table_id= "rtb-08251002d3658729e"
+frequency = 5    //how often the canary runs (unit-minutes)
+alert_sns_topic = "arn:aws:sns:us-east-1:396913706461:SNSforCanary:3ddd6ecf-6ac7-4ce0-8875-fff56a03dde4"
