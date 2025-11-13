@@ -176,7 +176,7 @@ resource "aws_s3_bucket_policy" "canaries_reports_bucket-policy" {
         },
         "Principal": "*"
       }
-      /*
+      
       {
         Sid    = "AllowCanaryAccess",   //allows the canary to access the s3 bucket so it can store logs in it
         Effect = "Allow",
@@ -208,7 +208,7 @@ resource "aws_s3_bucket_policy" "canaries_reports_bucket-policy" {
           }
         }
       }
-      */
+      
     ]
   })
 }
